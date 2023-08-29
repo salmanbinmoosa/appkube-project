@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .clint-sec {
+            display: flex;
+            width: 1224px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+
+        }
+
+        .clint-con {
+            display: flex;
+            height: 235px;
+            align-items: flex-start;
+            gap: 73px;
+        }
+
+        .clint-heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .clint-heading h2 {
+            background: var(--linear-gradient, linear-gradient(180deg, #F6F6F7 0%, #7E808F 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .clint-heading p {
+            color: var(--neutral-gray-300, #8F9BB7);
+            text-align: center;
+
+            /* Subtitle/RG */
+            /* font-family: Inter; */
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+        }
+
+        .clint-bg {
+            width: 392px;
+            height: 110px;
+            flex-shrink: 0;
+
+            border-radius: 10px;
+            background: var(--neutral-gray-800, #0E1330);
+        }
+
+        .clint-card {
+            display: flex;
+            width: 343px;
+            padding: 25px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 25px;
+            flex: 1 0 0;
+
+            border-radius: 10px;
+            border: 1px solid var(--neutral-gray-500, #282D45);
+            background: var(--neutral-gray-800, #0E1330);
+        }
+
+        .clint-card-top {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            align-self: stretch;
+        }
+
+        .clint-name {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+
+        }
+
+        .riview p {
+            color: var(--neutral-white-200, #F6F6F7);
+
+            /* Paragraph/RG */
+            /* font-family: Inter; */
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 150% */
+            align-self: stretch;
+        }
+
+        .clint-name p:nth-child(1) {
+            color: var(--neutral-white-200, #F6F6F7);
+
+            /* Paragraph/MD */
+            /* font-family: Inter; */
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            /* 100% */
+            width: 160px;
+        }
+
+        .clint-name p:nth-child(2) {
+            color: var(--neutral-gray-300, #8F9BB7);
+            /* font-family: Inter; */
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 12px;
+            /* 100% */
+
+            align-self: stretch;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="clint-sec">
+
+        <div class="clint-heading">
+            <h2>What our clients say</h2>
+            <p>Rmet facilisi arcu odio urna aenean erat. Pellentesque in vitae lobortis orci tincidunt <br> facilisis.
+                Pulvinar lacus ultricies turpis urna sapien.</p>
+        </div>
+
+
+        <div class="clint-con">
+
+
+            <div class="clint-box">
+
+                <div class="clint-card">
+
+                    <div class="clint-card-top">
+                        <img src="http://127.0.0.1:5501/Home%20page/images/Avatar.png" alt="">
+
+                        <div class="clint-name">
+                            <p>Cameron Williamson</p>
+                            <p>Web Designer</p>
+                        </div>
+
+                        <img src="http://127.0.0.1:5501/Home%20page/images/%E2%80%9D.png" alt="">
+
+                    </div>
+
+
+                    <div class="review">
+                        <p> Rorem ipsum dolor sit amet consectetur. Ac quam sem mi nibh volutpat enim pellentesque.
+                            Proin iaculis nisl et neque sed fermentum sollicitudin lectus. </p>
+                    </div>
+                </div>
+                <div class="clint-bg"></div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+</body>
+
+</html>
