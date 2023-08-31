@@ -407,7 +407,7 @@
         /* margin: auto; */
         margin: 70px 0px;
         gap: 10px;
-    
+
         /* dmmi height */
         /* height: 800px; */
     }
@@ -1354,7 +1354,7 @@
         /* margin: auto; */
         margin: 70px 0px;
         gap: 10px;
-    
+
         /* dmmi height */
         /* height: 800px; */
     }
@@ -1377,7 +1377,7 @@
     .c-card:hover {
         transform: translatey(30px);
         transform: scale(1.0.10);
-    
+
     }
 
     .c-card-bg {
@@ -1664,7 +1664,7 @@
 
     .container {
         max-width: 700px;
-        /* margin-inline: none; */
+        margin-inline: auto;
         /* background-color: RED; */
     }
 
@@ -1673,9 +1673,11 @@
     /* header stasrt */
     header {
         display: flex;
-        max-width: 640px;
+        /* max-width: 640px; */
+        width: 100%;
         margin-inline: auto;
         padding: 9px 0px;
+        padding-inline: 15PX;
         flex-direction: column;
         align-items: center;
         background-color: rgb(0, 0, 0);
@@ -1902,7 +1904,7 @@
         /* margin: auto; */
         margin: 70px 0px;
         gap: 10px;
-    
+
         /* dmmi height */
         /* height: 800px; */
     }
@@ -1910,6 +1912,7 @@
     .c-cards {
         justify-content: space-between;
     }
+
     .c-card {
         display: flex;
         width: 170px;
@@ -1925,10 +1928,11 @@
         transition: 0.5s linear;
     }
 
-    .c-card-bg1{
+    .c-card-bg1 {
         display: none;
     }
-    .c-card1{
+
+    .c-card1 {
         display: none;
     }
 
@@ -1936,7 +1940,7 @@
     .c-card:hover {
         transform: translatey(30px);
         transform: scale(1.0.10);
-    
+
     }
 
     .c-card-bg {
@@ -2204,7 +2208,8 @@
 @media screen and (max-width:624px) {
 
     .container {
-        max-width: 700px;
+        max-width: 500px;
+        padding-inline: 10px;
         /* margin-inline: none; */
         /* background-color: RED; */
     }
@@ -2214,9 +2219,9 @@
     /* header stasrt */
     header {
         display: flex;
-        max-width: 640px;
         margin-inline: auto;
-        padding: 9px 0px;
+        /* width: 100%; */
+        padding: 15px 15px;
         flex-direction: column;
         align-items: center;
         background-color: rgb(0, 0, 0);
@@ -2253,6 +2258,7 @@
         display: flex;
         flex-direction: column;
         gap: 25px;
+        /* background-color: #fff; */
         margin-inline: auto;
         align-items: center;
     }
@@ -2324,26 +2330,20 @@
         width: 400px;
     }
 
-
-
-
-
-
-
     /* cards container */
 
 
 
 
     .cards-row {
-        gap: 12px;
-        margin-top: 12px;
+        gap: 8px;
+        margin-top: 8px;
         /* flex-wrap    : wrap; */
     }
 
     .card {
         display: flex;
-        width: 373px;
+        width: 150px;
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
@@ -2354,7 +2354,7 @@
     }
 
     .icon {
-        width: 28.051px;
+        width: 20.051px;
         height: auto;
     }
 
@@ -2362,7 +2362,7 @@
         align-self: stretch;
         color: var(--neutral-white-200, #F6F6F7);
         /* font-family: Satoshi; */
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: 13px;
@@ -2370,8 +2370,8 @@
     }
 
     .card p {
-        font-size: 0.5rem;
-        line-height: 13px;
+        font-size: 0.4rem;
+        line-height: 10px;
     }
 
     /* cards container */
@@ -2383,17 +2383,17 @@
     /* sec 3 stst */
     .sec-3 h1 {
         text-align: center;
-        font-size: 1.7rem;
-        line-height: 34px;
+        font-size: 1.5rem;
+        line-height: 25px;
 
     }
 
     .con-1 {
-        height: 320px;
+        height: 270px;
     }
 
     .left {
-        gap: 20px;
+        gap: 15px;
     }
 
     .left h2 {
@@ -2406,7 +2406,7 @@
 
         /* Paragraph/RG */
         /* font-family: Inter; */
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         font-style: normal;
         font-weight: 400;
         line-height: 18px;
@@ -2414,13 +2414,13 @@
     }
 
     .left button {
-        font-size: 0.7rem;
-        padding: 5px 14px;
+        font-size: 0.5rem;
+        padding: 4px 12px;
     }
 
 
     .right img {
-        width: 260px;
+        width: 200px;
         /* height: 422.524px; */
         /* flex-shrink: 0; */
     }
@@ -2438,12 +2438,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 24px;
+        gap: 5px;
     }
 
     .news-header h1 {
         /* font-family: Satoshi; */
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 700;
         line-height: 64px;
@@ -2452,12 +2452,12 @@
     .browse-btn {
         color: #FFF;
         /* font-family: Satoshi; */
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         font-style: normal;
         font-weight: 500;
         line-height: 16px;
         display: flex;
-        padding: 8px 15px;
+        padding: 6px 11px;
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -2469,7 +2469,7 @@
 
     .news-cards-con {
         display: flex;
-        height: 336px;
+        height: 280px;
         align-items: Space-between;
         overflow: scroll;
 
@@ -2481,7 +2481,7 @@
     .news-blank-con {
         border-radius: 4px;
         background: var(--neutral-black-1000, #060B27);
-        width: 230px;
+        width: 210px;
         height: 130px;
     }
 
@@ -2489,17 +2489,17 @@
         align-self: stretch;
         color: var(--neutral-white-200, #F6F6F7);
         /* font-family: Satoshi; */
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 22px;
+        line-height: 15px;
         letter-spacing: -0.72px;
     }
 
     .news-card {
         /* align-items: center; */
         padding: 13px;
-        gap: 15px;
+        gap: 10px;
     }
 
     .news-card-con {}
@@ -2507,7 +2507,7 @@
     .news-card p {
         color: var(--neutral-gray-300, #8F9BB7);
         /* font-family: Inter; */
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         font-style: normal;
         font-weight: 400;
         line-height: 18px;
@@ -2516,20 +2516,20 @@
 
     .news-date {
         display: flex;
-        width: 230px;
+        width: 210px;
         justify-content: space-between;
         align-items: center;
         border-top: 1px solid #282D45;
     }
 
     .news-date p {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
     .read-more-btn {
         color: var(--neutral-white, #FFF);
         /* font-family: Satoshi; */
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         font-style: normal;
         font-weight: 500;
         line-height: 16px;
@@ -2537,7 +2537,7 @@
     }
 
     .news-date img {
-        width: 18px;
+        width: 16px;
     }
 
     /* news container */

@@ -8,10 +8,24 @@
     /* overflow-x: hidden; */
 }
 
+
+/* have to display block */
+.left-side {
+    display: none;
+    flex-direction: column;
+    width: 40%;
+    align-items:
+}
+/* have to display block */
+
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* utilities */
+
+::-webkit-scrollbar {
+    display: none;
+}
 .flex {
     display: flex;
 }
