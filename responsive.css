@@ -335,7 +335,7 @@
         align-self: stretch;
         /* font-family: Satoshi; */
         font-size: 1.5rem;
-        line-height: 1px;
+        /* line-height: 1px; */
         font-style: normal;
         font-weight: 700;
         line-height: 30px;
@@ -1140,7 +1140,7 @@
         align-self: stretch;
         /* font-family: Satoshi; */
         font-size: 1rem;
-        line-height: 1px;
+        /* line-height: 1px; */
         font-style: normal;
         font-weight: 700;
         line-height: 20px;
@@ -2263,6 +2263,12 @@
         align-items: center;
     }
 
+
+    .heading-arrows {
+        width: 40px;
+        margin: 0 3px;
+    }
+
     .headings h1 {
         text-align: center;
         display: flex;
@@ -2333,7 +2339,26 @@
     /* cards container */
 
 
+    .sec2-top h1 {
+        /* width: 60%; */
+        /* font-family: Satoshi; */
+        font-size: 1rem;
+        line-height: 20px;
+    }
 
+    .sec2-top p {
+        /* width: 40%; */
+        color: var(--neutral-gray-300, #8F9BB7);
+        /* font-family: Inter; */
+        font-size: 0.5rem;
+        font-style: normal;
+        line-height: 14px;
+        font-weight: 400;
+    }
+
+    .sec2-top {
+        margin-bottom: 10px;
+    }
 
     .cards-row {
         gap: 8px;
@@ -2343,7 +2368,7 @@
 
     .card {
         display: flex;
-        width: 150px;
+        width: 156px;
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
@@ -2389,7 +2414,9 @@
     }
 
     .con-1 {
-        height: 270px;
+        justify-content: center;
+        gap: 20px;
+        height: 260px;
     }
 
     .left {
@@ -2397,8 +2424,8 @@
     }
 
     .left h2 {
-        font-size: 1rem;
-        line-height: 25px;
+        font-size: 0.9rem;
+        line-height: 20px;
     }
 
     .left p {
@@ -2409,7 +2436,7 @@
         font-size: 0.5rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 18px;
+        line-height: 15px;
         /* 150% */
     }
 
@@ -2425,6 +2452,140 @@
         /* flex-shrink: 0; */
     }
 
+
+    .con-1 {
+        height: 230px;
+        width: 460px;
+    }
+
+
+
+    /* // table and app view container // */
+
+
+    .con-2 {
+        gap: 8px;
+    }
+
+    .con2-left {
+        width: 240px;
+        height: 290px;
+        border-radius: 10px;
+        border: 1px solid var(--neutral-gray-500, #282D45);
+        background: var(--neutral-gray-800, #0E1330);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+
+        align-items: center;
+    }
+
+
+
+    .con2-right {
+        border: 1px solid var(--neutral-gray-500, #282D45);
+        border-radius: 10px;
+        display: flex;
+        padding: 50px 55px 0px 55px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        border-radius: 10px;
+        border: 1px solid var(--neutral-gray-500, #282D45);
+        background: var(--neutral-gray-800, #0E1330);
+        position: relative;
+        width: 240px;
+        height: 290px;
+
+
+
+    }
+
+    .app-view {
+        width: 120px;
+        /* height: 352.444px; */
+        height: auto;
+        flex-shrink: 0;
+    }
+
+    .left-bottom {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+
+    }
+
+    .con2-h4 {
+        color: var(--neutral-white-200, #F6F6F7);
+        align-self: stretch;
+        /* font-family: Satoshi; */
+        font-size: 1rem;
+        /* line-height/: 1px; */
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: -0.96px;
+    }
+
+
+
+    .con2-p {
+        color: var(--neutral-gray-300, #8F9BB7);
+        /* font-family: Inter; */
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+    }
+
+    table {
+        width: 200px;
+        height: 140px;
+        font-size: 0.4rem;
+        /* height: 20px; */
+        /* display: none; */
+
+    }
+
+    tr {
+        height: 20px;
+    }
+
+    tr img {
+        width: 6px;
+    }
+
+    .right-top {
+        width: 200px;
+    }
+
+    .right-top h4 {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 1rem
+    }
+
+    .right-top p {
+        font-size: 0.5rem;
+        line-height: 12px;
+    }
+
+    .right-bottom {
+        width: 200px;
+        height: 30px;
+        flex-shrink: 0;
+        background: var(--neutral-gray-800, #0E1330);
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* // table and app view container // */
 
 
 
@@ -2548,14 +2709,34 @@
 
     /* footer news letter */
 
+    footer {}
 
     .footer-main {
         display: flex;
         align-items: flex-start;
-        gap: 30px;
+        gap: 20px;
         flex-direction: column;
         justify-content: center;
     }
+
+    .news-letter {
+        width: 100%;
+
+    }
+
+
+    .news-letter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px;
+        display: flex;
+        padding: 40px 0px 10px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 19px;
+      }
+      
 
     .news-letter h6 {
         font-size: 1.5rem;
@@ -2568,31 +2749,45 @@
 
     .sub-btn {
         display: flex;
-        width: 550px;
+        width: 100%;
         padding: 10px 55px;
         justify-content: center;
         align-items: center;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .email input {
-        font-size: 1rem;
-        width: 500px;
+        font-size: 0.9rem;
+        width: 100%;
 
     }
 
     .footer-main {
         justify-content: center;
         gap: 10px;
+        width: 500px;
     }
 
     .footer-main ul {
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
         flex-direction: row;
         justify-content: space-between;
     }
 
+    .footer-main ul li a {
+        font-size: 0.6rem;
+    }
+
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-items: center;
+    
+    }
 
     .email {
         color: var(--neutral-gray-400, #47507A);
@@ -2603,7 +2798,7 @@
         display: flex;
         padding: 8px 25px;
         align-items: flex-start;
-        width: 550px;
+        width: 100%;
         gap: 10px;
     }
 
