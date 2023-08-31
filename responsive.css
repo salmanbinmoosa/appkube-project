@@ -531,22 +531,23 @@
 
 
     /* discord secton strs */
-    .discord-sec {
-        max-width: 726px;
-        margin-inline: auto;
-        height: 380px;
-        border-radius: 10px;
 
-    }
+    .discord-sec {
+        max-width: 670px;
+        margin-inline: auto;
+        height: 330px;
+        border-radius: 10px;
+      }
 
     .discord-logo {
-        width: 44px;
+        width: 40px;
+        height: auto;
     }
 
     .discord-main {
         position: relative;
         top: 21px;
-        gap: 15px;
+        gap: 12px;
     }
 
     .discord-main h1 {
@@ -559,7 +560,7 @@
 
     .join-btn {
         font-size: 0.8rem;
-        padding: 12px 20px;
+        padding: 10px 18px;
     }
 
     /* discord secton eds */
@@ -1433,11 +1434,45 @@
         gap: 2px;
     }
 
-
-
-
-
     /* clintz section */
+
+
+    /* discord secton strs */
+
+    .discord-sec {
+        max-width: 580px;
+        margin-inline: auto;
+        height: 290px;
+        border-radius: 10px;
+      }
+
+    .discord-logo {
+        width: 35px;
+        height: auto;
+    }
+
+    .discord-main {
+        position: relative;
+        top: 40px;
+        gap: 8px;
+    }
+
+    .discord-main h1 {
+        font-size: 1.5rem;
+    }
+
+    .discord-main p {
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+
+    .join-btn {
+        font-size: 0.7rem;
+        padding: 8px 15px;
+    }
+
+    /* discord secton eds */
+
 
 
 
@@ -1995,6 +2030,48 @@
         align-items: flex-start;
         gap: 2px;
     }
+
+
+
+
+    /* discord secton strs */
+
+    .discord-sec {
+        max-width: 480px;
+        margin-inline: auto;
+        height: 250px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+    .discord-logo {
+        width: 30px;
+        height: auto;
+    }
+
+    .discord-main {
+        position: relative;
+        top: 40px;
+        gap: 8px;
+    }
+
+    .discord-main h1 {
+        font-size: 1.5rem;
+    }
+
+    .discord-main p {
+        font-size: 0.5rem;
+        line-height: 10px;
+    }
+
+    .join-btn {
+        font-size: 0.5rem;
+        padding: 4px 11px;
+    }
+
+    /* discord secton eds */
+
+
 
 
 
@@ -2704,6 +2781,44 @@
     /* news container */
 
 
+    /* discord secton strs */
+
+    .discord-sec {
+        max-width: 390px;
+        margin-inline: auto;
+        height: 200px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+    .discord-logo {
+        width: 25px;
+        height: auto;
+    }
+
+    .discord-main {
+        position: relative;
+        top: 40px;
+        gap: 8px;
+    }
+
+    .discord-main h1 {
+        font-size: 1rem;
+    }
+
+    .discord-main p {
+        font-size: 0.5rem;
+        line-height: 10px;
+    }
+
+    .join-btn {
+        font-size: 0.5rem;
+        padding: 2px 8px;
+    }
+
+    /* discord secton eds */
+
+
 
 
 
@@ -2722,7 +2837,7 @@
     .news-letter {
         width: 100%;
 
-    }
+    }#fff
 
 
     .news-letter {
@@ -2824,6 +2939,129 @@
 
     /* footer  */
 }
+
+
+
+
+
+
+/* Media queriezzzz for mobile screens */
+@media screen and (max-width:500px){
+.container {
+    width: 340px;
+}
+
+
+
+    /* header stasrt */
+    header {
+        display: flex;
+        margin-inline: auto;
+        /* width: 100%; */
+        padding: 15px 15px;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        background-color: #060B27;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links li a {
+        color: var(--neutral-gray-300, #8F9BB7);
+        /* font-family: Inter; */
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .trial-btn {
+        display: flex;
+        padding: 5px 12px;
+        font-size: 0.8rem;
+    }
+
+    .logo img {
+        width: 96px;
+    }
+
+    /* header stasrt */
+
+
+    main {
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        /* background-color: #fff; */
+        margin-inline: auto;
+        align-items: center;
+    }
+
+
+    .heading-arrows {
+        width: 20px;
+        height: auto;
+        margin: 0 3px;
+    }
+
+    .headings h1 {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .headings p {
+        color: var(--neutral-gray-300, #8F9BB7);
+        text-align: center;
+        /* font-family: Satoshi; */
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: -0.96px;
+    }
+
+    .headings {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .sec-1-btns button:nth-child(1) {
+        display: flex;
+        padding: 6px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 36px;
+        background: var(--primary-blue-violet, #7214FF);
+        border: none;
+        color: #FFF;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 500;
+
+    }
+
+    .sec-1-btns button:nth-child(2) {
+        font-size: 0.7rem;
+        padding: 6px 10px;
+        gap: 8px;
+    }
+
+    .hero-img img {
+        width: 300px;
+      }
+
+
+
+
 
 
 }
