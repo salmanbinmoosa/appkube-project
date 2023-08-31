@@ -16,6 +16,7 @@
     width: 40%;
     align-items:
 }
+
 /* have to display block */
 
 /* google fonts */
@@ -26,6 +27,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 .flex {
     display: flex;
 }
@@ -161,25 +163,28 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(images/Ellipse\ 2\ \(1\).png), url(images/Ellipse\ 2\ \(1\)\ copy.png);
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-position: left;
-    /* background-position: left , right bottom; */
-    /* background-position: left , right; */
+    position: relative;
+
 }
 
-.Ellipse {
-    /* position: absolute; */
-    z-index: 1;
-    width: 274px;
-    height: 226.032px;
-    flex-shrink: 0;
+.ellipse1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
 
-    border-radius: 274px;
-    background: #7214FF;
-    filter: blur(250px);
-    display: none;
+    width: 39%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.ellipse2 {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+
+    width: 35%;
+    height: auto;
+    flex-shrink: 0;
 }
 
 main {
@@ -472,6 +477,7 @@ main {
     width: 187px;
     height: 233px;
     flex-shrink: 0;
+    display: none;
 }
 
 .ellipse-10 {
@@ -483,6 +489,7 @@ main {
     width: 211px;
     height: 263px;
     flex-shrink: 0;
+    display: none;
 }
 
 
@@ -733,6 +740,7 @@ main {
     position: absolute;
     top: 0;
     right: 0;
+    display: none;
     ;
 }
 
@@ -1286,7 +1294,7 @@ hr {
 /* ui image contaienr */
 
 
-/* section four ends */ 
+/* section four ends */
 
 /* section 5 starts */
 
@@ -1567,7 +1575,7 @@ hr {
     align-items: center;
     gap: 30px;
     position: relative;
-    top: 45px;
+    top: 4px;
     z-index: 1;
 }
 

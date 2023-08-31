@@ -108,10 +108,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(images/Ellipse\ 2\ \(1\).png), url(images/Ellipse\ 2\ \(1\)\ copy.png);
-        /* background-size: cover; */
-        background-repeat: no-repeat;
-        background-position: left;
     }
 
 
@@ -537,7 +533,7 @@
         margin-inline: auto;
         height: 330px;
         border-radius: 10px;
-      }
+    }
 
     .discord-logo {
         width: 40px;
@@ -938,10 +934,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(images/Ellipse\ 2\ \(1\).png), url(images/Ellipse\ 2\ \(1\)\ copy.png);
-        /* background-size: cover; */
-        background-repeat: no-repeat;
-        background-position: left;
     }
 
 
@@ -1444,7 +1436,7 @@
         margin-inline: auto;
         height: 290px;
         border-radius: 10px;
-      }
+    }
 
     .discord-logo {
         width: 35px;
@@ -1809,10 +1801,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(images/Ellipse\ 2\ \(1\).png), url(images/Ellipse\ 2\ \(1\)\ copy.png);
-        /* background-size: cover; */
-        background-repeat: no-repeat;
-        background-position: left;
     }
 
 
@@ -2042,7 +2030,7 @@
         height: 250px;
         border-radius: 10px;
         overflow: hidden;
-      }
+    }
 
     .discord-logo {
         width: 30px;
@@ -2402,10 +2390,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: url(images/Ellipse\ 2\ \(1\).png), url(images/Ellipse\ 2\ \(1\)\ copy.png);
-        /* background-size: cover; */
-        background-repeat: no-repeat;
-        background-position: left;
     }
 
 
@@ -2789,7 +2773,7 @@
         height: 200px;
         border-radius: 10px;
         overflow: hidden;
-      }
+    }
 
     .discord-logo {
         width: 25px;
@@ -2837,10 +2821,9 @@
     .news-letter {
         width: 100%;
 
-    }#fff
+    }
 
-
-    .news-letter {
+    #fff .news-letter {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -2850,8 +2833,8 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 19px;
-      }
-      
+    }
+
 
     .news-letter h6 {
         font-size: 1.5rem;
@@ -2901,7 +2884,7 @@
         align-items: flex-start;
         gap: 10px;
         align-items: center;
-    
+
     }
 
     .email {
@@ -2946,10 +2929,10 @@
 
 
 /* Media queriezzzz for mobile screens */
-@media screen and (max-width:500px){
-.container {
-    width: 340px;
-}
+@media screen and (max-width:500px) {
+    .container {
+        width: 340px;
+    }
 
 
 
@@ -3013,6 +2996,7 @@
         justify-content: space-between;
         align-items: center;
         font-size: 1rem;
+        letter-spacing: 0.7px;
     }
 
     .headings p {
@@ -3023,7 +3007,7 @@
         font-style: normal;
         font-weight: 700;
         line-height: 15px;
-        letter-spacing: -0.96px;
+        letter-spacing: -0.1px;
     }
 
     .headings {
@@ -3057,9 +3041,87 @@
 
     .hero-img img {
         width: 300px;
-      }
+    }
 
 
+
+    /* sectoion 1 */
+    .sec2-top h1 {
+        width: 100%;
+        /* font-family: Satoshi; */
+        font-size: 0.8rem;
+        line-height: 12px;
+        letter-spacing: 0.7px;
+    }
+
+    .sec2-top p {
+        width: 40%;
+        color: var(--neutral-gray-300, #8F9BB7);
+        /* font-family: Inter; */
+        font-size: 0.3rem;
+        font-style: normal;
+        line-height: 8px;
+        font-weight: 400;
+    }
+
+    /* sectoion 1 */
+
+    /* sec 2 */
+    .sec-3 h1 {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 18px;
+        letter-spacing: 0.7px;
+    }
+
+    /* con 1  */
+
+    .con-1 {
+        height: 170px;
+    }
+    .left h2 br {
+        display: none;
+    }
+
+    .left h2 {
+        font-size: 0.7rem;
+        line-height: 17px;
+    }
+
+
+    .right img {
+        width: 200px;
+        height: 422.524px;
+        flex-shrink: 0;
+    }
+
+    .right img {
+        width: 150px;
+        flex-shrink: 0;
+        height: auto;
+    }
+
+    .left {
+        gap: 10px;
+    }
+
+    .left button {
+        font-size: 0.4rem;
+        padding: 1px 10px;
+    }
+
+    .left p {
+        color: var(--neutral-gray-300, #8F9BB7);
+        /* font-family: Inter; */
+        font-size: 0.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11px;
+    }
+
+    /* con 1  */
+
+    /* sec 2 */
 
 
 
