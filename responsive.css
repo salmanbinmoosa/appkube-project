@@ -3079,6 +3079,7 @@
     .con-1 {
         height: 170px;
     }
+
     .left h2 br {
         display: none;
     }
@@ -3086,12 +3087,13 @@
     .left h2 {
         font-size: 0.7rem;
         line-height: 17px;
+        letter-spacing: 1px;
     }
 
 
     .right img {
         width: 200px;
-        height: 422.524px;
+        height: auto;
         flex-shrink: 0;
     }
 
@@ -3121,7 +3123,161 @@
 
     /* con 1  */
 
+    /* con 2  */
+
+    .con-2 {
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .con2-left {
+        width: 100%;
+        height: 190px;
+        border-radius: 10px;
+        border: 1px solid var(--neutral-gray-500, #282D45);
+        background: var(--neutral-gray-800, #0E1330);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+
+    .left-bottom {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .app-view {
+        width: 130px;
+    }
+
+    /*  */
+    .con2-h4 {
+        color: var(--neutral-white-200, #F6F6F7);
+        align-self: stretch;
+        /* font-family: S t/oshi; */
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.100px;
+    }
+
+
+    .con2-p {
+        color: var(--neutral-gray-300, #8F9BB7);
+        /* font-family: Inter; */
+        font-size: 0.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 11px;
+    }
+
+
+
+    .con2-right {
+        width: 100%;
+        height: 200px;
+        padding: 0 0 0 0;
+        height: 190px;
+        gap: 10px;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    table {
+        font-size: 0.4rem;
+
+
+        font-size: 0.3rem;
+
+        height: 140px;
+
+        width: 48%;
+
+    }
+
+    tr {
+        height: 20px;
+    }
+
+    .right-top p {
+        font-size: 0.4rem;
+        padding: 0 0 0 0;
+
+        line-height: 10px;
+    }
+
+    .right-top h4 {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        font-size: 0.7rem;
+    }
+
+    .right-top {
+        width: 40%;
+        gap: 10px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+
+        /* gap: 10px; */
+    }
+
+    /* con 2  */
+
     /* sec 2 */
+
+
+    /* discord section */
+    .discord-sec {
+        max-width: 280px;
+        margin-inline: auto;
+        height: 170px;
+        border-radius: 10px;
+        overflow: hidden;
+
+    }
+
+    .discord-main {
+        width: 200px;
+        height: 120px;
+        gap: 4px;
+        justify-content: center;
+        /* background-color: red; */
+        top: 4;
+        /* background-color: #fff; */
+    }
+
+    .discord-main h1 {
+        font-size: 0.8rem;
+       
+    }
+
+    .discord-main p {
+        font-size: 0.4rem;
+        line-height: 8px;
+    }
+
+    .join-btn {
+        font-size: 0.4rem;
+        padding: 1px 6px;
+    }
+
+
+    .discord-main img {
+        width: 20px;
+        height: auto;
+    }
+
+    /* discord section */
 
 
 

@@ -670,6 +670,7 @@ main {
     background: var(--neutral-gray-800, #0E1330);
 
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -1575,7 +1576,7 @@ hr {
     align-items: center;
     gap: 30px;
     position: relative;
-    top: 4px;
+    top: 40px;
     z-index: 1;
 }
 
@@ -2039,3 +2040,7 @@ footer ul li a {
 /* clintz */
 
 .clintz-sec {}
+
+
+
+
